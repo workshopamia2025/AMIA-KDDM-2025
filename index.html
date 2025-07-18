@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>AMIA KDDM, NLP, and KRS</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/AMIA_KDDM_logo-favicon.jpg" rel="icon">
+  <link href="img/AMIA_KDDM_logo-apple-touch.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;600&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;800&family=Montserrat:wght@400;600&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+        <a href="#intro" class="scrollto"><img src="img/AMIA_KDDM_logo.jpg" alt="" title=""></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="#about">Introduction</a></li>
+          <li><a href="#outline">Outline</a></li>
+          <li><a href="#objective">Objective</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#organizers">Organizers</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="buy-tickets"><a href="#submission">Submission</a></li>
+
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <h1 class="mb-4 pb-0">Open-Source Large Language Models<br> for Health Applications: <span>Performance, Multimodality, and<br>Real-World Implementations</span></h1>
+      <p class="mb-4 pb-0">November 15, Marriott Marquis, Atlanta</p>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Introduction</h2>
+            <p>The rapid advancement of Large Language Models (LLMs) has transformed numerous domains, including health informatics, clinical decision support, and biomedical research. 
+              While proprietary LLMs such as GPT-4, Claude, and Gemini have demonstrated impressive capabilities, they remain closed-source, limiting transparency, reproducibility, and adaptability for healthcare-specific needs. Open-source LLMs, such as LLaMA 3, DeepSeek, and Mistral, offer a promising alternative by enabling researchers and practitioners to develop, fine-tune, and deploy models that are tailored to domain-specific requirements while maintaining greater control over data privacy, compliance, and bias mitigation. 
+              However, the practical adoption of open-source LLMs in healthcare presents unique challenges, including performance trade-offs, multimodal integration, computational efficiency, and regulatory considerations. As healthcare applications increasingly rely on multimodal AI - combining text, imaging, electronic health records (EHRs), and genomics - the need for interpretable, transparent, and efficient models has never been greater. 
+              Additionally, ensuring HIPAA-compliant deployment and understanding the limitations of LLM-based solutions remain critical hurdles for widespread adoption.
+            </p>
+            <p>This collaborative workshop, organized by the AMIA Knowledge Discovery and Data Mining (KDDM), Natural Language Processing (NLP), and Knowledge Representation & Semantics (KRS) Working Groups, provides a deep dive into the state-of-the-art open-source LLMs for healthcare applications. We will explore:
+            </p>
+            <ul>
+              <li><strong>Comparative performance analysis </strong>of open-source vs. closed-source LLMs for medical tasks.</li>
+              <li><strong>Multimodal LLMs</strong>, incorporating text, medical imaging, and structured EHR data.</li>
+              <li><strong>Interpretability, reproducibility, and trustworthiness </strong>in LLM-powered healthcare tools.</li>
+              <li><strong>Regulatory and ethical considerations</strong>, including HIPAA compliance and data privacy.</li>
+              <li><strong>Hands-on tutorials </strong>featuring LangChain and LangGraph for developing LLM-based AI agents.</li>
+              <li><strong>Real-world implementation case studies</strong> from academic and industry leaders.</li>
+            </ul>
+            <p>Through <strong>keynote talks, panel discussions, technical tutorials, and live demonstrations</strong>, this workshop will engage researchers, clinicians, informaticians, and AI practitioners in a collaborative exploration of how open-source LLMs can drive innovation in health applications while addressing challenges of performance, compliance, and scalability.
+            </p>
+            <p>By the end of the workshop, participants will have a deeper understanding of open-source LLM trade-offs, hands-on experience with implementation frameworks, and insights into future directions for multimodal AI in healthcare.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!--==========================
+      Outline Section
+    ============================-->
+    <section id="outline">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Outline</h2>
+            <div class="outline-header">
+            </div>
+            <p>This collaborative workshop is organized four themes: (1) introducing various healthcare and medical applications of LLMs; (2) evaluating open-source and close-source LLMs for health applications; (3) building LLM applications using LangChain and LangGraph; (4) multimodal capabilities. We are interested in, but not limited to the following topics during this workshop:
+            </p>
+            <ul>
+              <li><strong>LLM applications in healthcare</strong></li>
+              <li><strong>Open source LLMs for healthcare applications</strong></li>
+              <li><strong>Multimodal capabilities of LLMs for health applications</strong></li>
+            </ul>
+            <p>We plan to kick off the workshop with a 10-minute introduction of open-source LLMs in health informatics and 40-minute keynote presented by a leading scientist to talk about performance benchmarking of open-source vs. closed-source LLMs. Next, there will be discussion with invited panelists from academic, industry, and healthcare systems on the challenges and lessons learned in open-source LLM research and implementation. During the coffee break, there will be presentations by student presenters. Then, there will be a few short research talks about multimodal LLMs. Then, there will be a hands-on tutorial about developing LLM applications and AI agents using LangChain and LangGraph, two prominent platforms. Then, there will be a session on the demos of open-source LLM applications. The workshop will be concluded with a closing remark.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!--==========================
+      Objective Section
+    ============================-->
+    <section id="objective">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Objective</h2>
+            <p>Our intended audience will include researchers, clinicians, data scientists, and informaticians interested in leveraging open-source LLMs for healthcare applications, including those working on natural language processing (NLP), multimodal AI, clinical decision support, and AI model compliance. We anticipate attendees to have expertise levels of 25% novice, 50% intermediate, and 25% advanced.
+            </p>
+            <p>By the end of the workshop, participants will:
+            </p>
+            <ul>
+              <li>Understand the trade-offs between open-source and closed-source LLMs in health applications.</li>
+              <li>Explore multimodal LLMs trained for text, imaging, and structured health data.</li>
+              <li>Learn about HIPAA compliance and regulatory considerations when deploying LLMs in clinical environments.</li>
+              <li>Gain hands-on experience in building and deploying open-source LLM applications using LangChain and LangGraph.</li>
+              <li>Hear from experts about challenges and real-world implementation of LLMs in healthcare research.</li>
+              <li>Participate in interactive demos showcasing LLM-powered healthcare tools.</li>
+              <li>Engage in discussions about open-source model interpretability, reproducibility, and deployment challenges.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+      Speakers Section
+    ============================-->
+    <section id="speakers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Event Speakers</h2>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers/Zhe he.jpg" alt="Speaker 5" class="img-fluid">
+              <div class="details">
+                <h3><a href="#speakers">Zhe He</a></h3>
+                <p>Associate Professor, School of Information at Florida State University</p>
+                <div class="social">
+                  <a href="https://directory.cci.fsu.edu/zhe-he/" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/zhehe" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers/LuZhiyong.png" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="#speakers">Zhiyong Lu</a></h3>
+                <p>Senior Investigator, NIH Intramural Research Program</p>
+                <div class="social">
+                  <a href="https://www.ncbi.nlm.nih.gov/research/bionlp/" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/drzhiyonglu" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers//Yonghui Wu.png" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="#speakers">Yonghui Wu</a></h3>
+                <p>Associate Professor, Department of Health Outcomes and Biomedical Informatics at the University of Florida</p>
+                <div class="social">
+                  <a href="https://scholar.google.com/citations?user=bMWMlk4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/yonghui-wu-86925660" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>         
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers/Mattia Prosperi.png" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="#speakers">Mattia Prosperi</a></h3>
+                <p>Professor and Associate Dean, AI and Innovation at the University of Florida</p>
+                <div class="social">
+                  <a href="https://epidemiology.phhp.ufl.edu/profile/prosperi-mattia/" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/mattia-prosperi-777b857" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers/Balu Bhasuran.png" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="#speakers">Balu Bhasuran</a></h3>
+                <p>Visiting Assistant Professor, School of Information at Florida State University</p>
+                <div class="social">
+                  <a href="https://scholar.google.com/citations?user=1onUbxYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/balu-bhasuran-ph-d-954a1a48" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+      Schedule Section
+    ============================-->
+    <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>Event Schedule</h2>
+        </div>
+
+        <h3 class="sub-heading">The proposed workshop will be 3.5 hours, including a 30-minute coffee break for attendees to network with each other. All the speakers have confirmed participation.
+        </h3>
+
+        <div class="tab-content row justify-content-center">
+
+          <!-- Schdule Day 1 -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>8:30-8:40 AM</time></div>
+              <div class="col-md-10">
+                <h4>Welcome and opening remarks</h4>
+                <div class="d-flex align-items-center">
+                  <div class="speaker">
+                    <img src="img/speakers/Zhe he.jpg" alt="Another Speaker">
+                  </div>
+                  <p>Introduction to LLM for healthcare applications
+                    <!-- <a href="https://www.dropbox.com/scl/fi/yhpvd5govoews84ecllz5/W05_KDDM-KRS_LLM_FINAL_opening.pdf?rlkey=l9iz8sekh5i2qkkqwyyvhqq0h&e=1&st=gk9nih4l&dl=0" target="_blank">[Slide deck]</a> -->
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>8:40-9:20 AM</time></div>
+              <div class="col-md-10">
+                <h4>Keynote <span>30 min presentation + 10 min Q&A</span></h4>
+                <div class="d-flex align-items-center">
+                <div class="speaker">
+                  <img src="img/speakers/Yonghui Wu.png" alt="Brenden Legros">
+                </div>
+                <p>Open-Source vs. Closed-Source LLMs
+                <!-- <a href="https://www.dropbox.com/scl/fo/kfbpwxxuaiep9e2k3gfcx/AFYfOXHQ0kT-3A8NwXsZCDY?e=1&preview=KDDM24LU-final.pdf&rlkey=6jz8k9knm3ykxotcnqq9hhthh&st=zgttckpd&dl=0" target="_blank">[Slide deck]</a> -->
+                </p>
+              </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>9:20 - 10:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Panel Discussion: Challenges and Lessons Learned in Open-Source LLM-Based Applications <span>40 min</span></h4>
+                <h4>Moderator: Zhe He, Panelists: Mattia Prosperi, Zhiyong Lu, Hong Yu, Kaleb Smith</h4>
+                <div class="speaker mr-5">
+                  <img src="img/speakers/Zhe he.jpg" alt="Zhe He">
+                </div>
+                <div class="speaker mr-5">
+                  <img src="img/speakers/LuZhiyong.png" alt="LuZhiyong">
+                </div>
+                <div class="speaker mr-5">
+                  <img src="img/speakers/Mattia Prosperi.png" alt="Mattia Prosperi">
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00-10:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break & Student Poster Presentations</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30-11:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Invited presentations I <span>12 min presentation + 3 min Q&A for each</span></h4>
+                <!-- First Speaker -->
+                <div class="d-flex align-items-center mb-3">
+                  <div class="speaker">
+                    <img src="img/speakers/Rui Zhang.jpg" alt="Hubert Hirthe">
+                  </div>
+                  <div>
+                    <p>Retrieval-augmented LLMs for Various Biomedical Tasks
+                    <!-- Bootstrap Dropdown for Slide Deck -->
+                      <!-- <div class="dropdown d-inline">
+                        <a href="https://www.dropbox.com/scl/fo/kfbpwxxuaiep9e2k3gfcx/AFYfOXHQ0kT-3A8NwXsZCDY?e=1&preview=Zhang+AMIA+KDD+final.pdf&rlkey=6jz8k9knm3ykxotcnqq9hhthh&st=ai0jt0aq&dl=0" target="_blank">[Slide deck]</a>
+                      </div> -->
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Second Speaker -->
+                <!-- <div class="d-flex align-items-center mb-3">
+                  <div class="speaker">
+                    <img src="img/speakers/Aokun Chen.jpg" alt="Another Speaker">
+                  </div>
+                  <div>
+                    <p>Retrieval-Augmented Generation for Automating Patient Pre-screening in Clinical Trial Recruitment -->
+                    <!-- Bootstrap Dropdown for Slide Deck -->
+                      <!-- <div class="dropdown d-inline">
+                          <a href="https://www.dropbox.com/scl/fo/kfbpwxxuaiep9e2k3gfcx/AFYfOXHQ0kT-3A8NwXsZCDY?e=1&preview=ChenAokun_RAG+on+patient+recuritement.pdf&rlkey=6jz8k9knm3ykxotcnqq9hhthh&st=aoanqby8&dl=0" target="_blank">[Slide deck]</a>
+                      </div> -->
+                    <!-- </p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00-11:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Hands-on Tutorial <span>30 min</span></h4>
+                <div class="d-flex align-items-center">
+                <div class="speaker">
+                  <img src="img/speakers/Balu Bhasuran.png" alt="Balu Bhasuran">
+                </div>
+                <p>Building LLM Applications with LangChain and LangGraph
+                <!-- <a href="https://www.dropbox.com/scl/fo/kfbpwxxuaiep9e2k3gfcx/AFYfOXHQ0kT-3A8NwXsZCDY?e=1&preview=KDDM24LU-final.pdf&rlkey=6jz8k9knm3ykxotcnqq9hhthh&st=zgttckpd&dl=0" target="_blank">[Slide deck]</a> -->
+                </p>
+              </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:30-11:50 AM</time></div>
+              <div class="col-md-10">
+                <h4>Demo Showcase <span>20 min</span></h4>
+                <!-- <div class="d-flex align-items-center">
+                <div class="speaker">
+                  <img src="img/speakers/LuZhiyong.png" alt="Brenden Legros">
+                </div>
+                <p>Open-Source LLMs in Action -->
+                <!-- <a href="https://www.dropbox.com/scl/fo/kfbpwxxuaiep9e2k3gfcx/AFYfOXHQ0kT-3A8NwXsZCDY?e=1&preview=KDDM24LU-final.pdf&rlkey=6jz8k9knm3ykxotcnqq9hhthh&st=zgttckpd&dl=0" target="_blank">[Slide deck]</a> -->
+                <!-- </p>
+              </div> -->
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:50-12:0 PM</time></div>
+              <div class="col-md-10">
+                <h4>Closing Remarks & Future Directions</h4>
+                <div class="d-flex align-items-center">
+                  <div class="speaker">
+                    <img src="img/speakers/Zhe he.jpg" alt="Another Speaker">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule Day 1 -->
+        </div>
+
+      </div>
+
+    </section>
+
+<!--==========================
+      Organizers Section
+    ============================-->
+    <section id="organizers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Event Organizers</h2>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers/Zhe he.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="#organizers">Zhe He</a></h3>
+                <p>Associate Professor, School of Information at Florida State University</p>
+                <div class="social">
+                  <a href="https://directory.cci.fsu.edu/zhe-he/" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/zhehe" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers/Hilda Klasky.png" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="#organizers">Hilda Klasky</a></h3>
+                <p>Senior research professional, Oak Ridge National Laboratory</p>
+                <div class="social">
+                  <a href="https://scholar.google.com/citations?user=dmKo_hAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/hilda-b-klasky" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers/Averitt_Amelia.png" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="#organizers">Amelia Averitt</a></h3>
+                <p>Lecturer, Department of Biomedical Informatics at Columbia University</p>
+                <div class="social">
+                  <a href="https://scholar.google.com/citations?user=nuIvrucAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/ameliajaveritt" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers/Humayera Islam.png" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="#organizers">Humayera Islam</a></h3>
+                <p>Postdoctoral scholar at the University of Chicago</p>
+                <div class="social">
+                  <a href="https://scholar.google.com/citations?user=FFVzrPEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/humayera-islam" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers/Rui Zhang.jpg" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                  <h3><a href="#organizers">Rui Zhang</a></h3>
+                  <p>Professor and Chief, Division of Computational Health Sciences, Department of Surgery (UMN)</p>
+                  <div class="social">
+                    <a href="https://med.umn.edu/bio/rui-zhang" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                    <a href="https://www.linkedin.com/in/rui-zhang-003065b" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers/Nansu-Zong-.png" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="#organizers">Nansu Zong</a></h3>
+                <p>Assistant Professor, Mayo Clinic's Department of AI and Informatics Research</p>
+                <div class="social">
+                  <a href="https://www.mayo.edu/research/faculty/zong-nansu-ph-d/bio-20478804" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/nansu-zong-ph-d-111071200" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="speaker-wrapper">
+            <div class="speaker">
+              <img src="img/speakers//Carl Yang.png" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="#organizers">Carl Yang</a></h3>
+                <p>Assistant Professor, Department of Computer Science at Emory University</p>
+                <div class="social">
+                  <a href="https://scholar.google.com/citations?user=mOINlwcAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/carlyang81" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+      <!--==========================
+      Submission Section
+    ============================-->
+
+     <section id="submission">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Submissions</h2>
+            <h3>Important Dates</h3>
+            <ul>
+              <li>Submission Deadline: <span class="highlight-date">September 12, 2025</span></li>
+              <li>Notification of Acceptance: <span class="highlight-date">October 10, 2025</span></li>
+              <li>Workshop: <span class="highlight-date">8:30 AM – 12 PM PST, November 15, 2025</span></li>
+            </ul>
+            <h3>Submission guidelines</h3>
+            <p>All the submissions have a page limit of 1 page using <a href="https://brand.amia.org/m/95c9b4f4632c1fe/original/amia-symposium-template-paper-poster.docx" target="_blank" rel="noopener noreferrer">AMIA Template</a></p>
+            <p><a href="https://easychair.org/conferences/?conf=amia2025kddm" class="btn-submit" target="_blank" rel="noopener noreferrer">Submit Now</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--==========================
+      Venue Section
+    ============================-->
+    <section id="venue" class="wow fadeInUp">
+
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h2>Event Venue</h2>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-lg-6 venue-map">
+          <iframe 
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Atlanta%20Marriott%20Marquis%20265%20Peachtree%20Center%20Avenue,%20Atlanta,%20GA%2030303+(AMIA%202025%20Venue)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
+                frameborder="0" 
+                style="border:0" 
+                allowfullscreen>
+              </iframe>
+          </div>
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8">
+                <h3>Atlanta Marriott Marquis</h3>
+                <p>Enjoy the best of downtown Atlanta, Georgia, at Atlanta Marriott Marquis. Step into our stunning, famous atrium and know that you have arrived at our iconic 52 story downtown hotel in Atlanta just minutes from Atlanta Airport ATL. Our friendly staff looks forward to welcoming you with 4-star service. Relax in our luxury spa, take a dip in our indoor/outdoor pool, or stay fit in our expansive gym. Walk to shopping, dining and entertainment, or use our indoor connection to Peachtree Center MARTA Station to visit ATL Airport, Mercedes Benz Stadium and more. Memorably experience the city from our family-friendly hotel in Atlanta.</p>
+              <!-- Added Card for Information -->
+            <div class="card mt-4">
+              <div class="card-body">
+                <h4 class="card-title">Event Details</h4>
+                <p><strong>Time/Date:</strong> 8:30 AM – 12 PM EST, November 15, 2025</p>
+                <p><strong>Location:</strong> Atlanta Marriott Marquis</p>
+                <!-- <p><strong>Session Code:</strong> W05</p> -->
+              </div>
+            </div>
+            <!-- End of Card -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+       
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:zhe.he@cci.fsu.edu">zhe.he@cci.fsu.edu</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    
+    <div class="container">
+      <div class="copyright">
+        &copy; All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+  <script>
+    document.querySelectorAll('.toggle-authors-btn').forEach(button => {
+      button.addEventListener('click', function() {
+        const moreAuthors = this.previousElementSibling;
+        
+        // Toggle logic for showing/hiding authors
+        if (moreAuthors.style.maxHeight) {
+          moreAuthors.style.maxHeight = null; // Collapse
+          this.textContent = "Read more";
+        } else {
+          moreAuthors.style.maxHeight = moreAuthors.scrollHeight + "px"; // Expand
+          this.textContent = "Read less";
+        }
+      });
+    });
+  </script>
+  
+</body>
+
+</html>
