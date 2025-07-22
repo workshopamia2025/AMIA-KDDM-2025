@@ -797,8 +797,9 @@ padding: 10px 0 40px 0;
 }
 
 #submission p {
-  font-size: 14px;
-  color: #fff;
+  font-size: 14px;        /* Adjust as needed */
+  color: #fff;            /* Slightly lighter than body text */
+  margin-bottom: 10px;
 }
 
 #submission .poster-grid {
