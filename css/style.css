@@ -852,6 +852,32 @@ padding: 10px 0 40px 0;
   text-align: right; /* Align text to the right for better readability */
 }
 
+/* Poster link styling */
+#submission .poster-link a {
+  color: #f8d347; /* gold to match the title accent */
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+#submission .poster-link a i {
+  color: #f8d347;
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+#submission .poster-link a:hover {
+  color: #fff;
+}
+
+#submission .poster-link a:hover i {
+  color: #fff;
+  transform: scale(1.1);
+}
+
 #submission .toggle-authors-btn {
   background-color: #f8d347;
   color: #000;
